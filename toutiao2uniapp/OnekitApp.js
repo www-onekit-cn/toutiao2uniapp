@@ -1,18 +1,18 @@
 export default function (tt_object) {
 	const uniapp_object = {
 		onLaunch(uni_launchOpions) {
-			let wx_launchOpions = {}
+			let tt_launchOpions = {}
 			/*
-			uni_launchOpions => wx_launchOpions
+			uni_launchOpions => tt_launchOpions
 			*/
-			wx_launchOpions = uni_launchOpions
-			wx_launchOpions.shareTicket = undefined
-			wx_launchOpions.referrerInfo = {}
+			tt_launchOpions = uni_launchOpions
+			tt_launchOpions.shareTicket = undefined
+			tt_launchOpions.referrerInfo = {}
 			//////////////////////
-			this.onekit_launchOpions = wx_launchOpions
+			this.onekit_launchOpions = tt_launchOpions
 			if (tt_object.onLaunch) {
-				tt_object.onLaunch.call(this, wx_launchOpions)
-				// tt_object.onLaunch(wx_launchOpions)
+				tt_object.onLaunch.call(this, tt_launchOpions)
+				// tt_object.onLaunch(tt_launchOpions)
 			}
 		},
 		onShow(uni_showOpions) {
