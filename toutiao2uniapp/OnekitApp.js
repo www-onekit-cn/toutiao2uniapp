@@ -16,27 +16,27 @@ export default function (tt_object) {
 			}
 		},
 		onShow(uni_showOpions) {
-			let wx_showOpions = {}
-			wx_showOpions = uni_showOpions
-			this.onekit_showOptions = wx_showOpions
+			let tt_showOpions = {}
+			tt_showOpions = uni_showOpions
+			this.onekit_showOptions = tt_showOpions
 			if (tt_object.onShow) {
 				tt_object.onShow.call(this, uni_showOpions)
 			}
 		},
 		onUnhandledRejection(uni_rejectionFn) {
 			/**     未生效       */
-			let wx_rejectionFn = uni_rejectionFn()
-			this.onekit_rejectionFn = wx_rejectionFn()
+			let tt_rejectionFn = uni_rejectionFn()
+			this.onekit_rejectionFn = tt_rejectionFn()
 			if (tt_object.onUnhandledRejection) {
-				tt_object.onUnhandledRejection(wx_rejectionFn())
+				tt_object.onUnhandledRejection(tt_rejectionFn())
 			}
 		},
 		onThemeChange(uni_themeChangeFn) {
 			/**     未测试    */
-			let wx_themeChangeFn = uni_themeChangeFn()
-			this.onekit_themeChangeFn = wx_themeChangeFn()
+			let tt_themeChangeFn = uni_themeChangeFn()
+			this.onekit_themeChangeFn = tt_themeChangeFn()
 			if (tt_object.onThemeChange) {
-				tt_object.onThemeChange(wx_themeChangeFn())
+				tt_object.onThemeChange(tt_themeChangeFn())
 			}
 		}
 	}
