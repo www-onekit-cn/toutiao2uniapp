@@ -159,23 +159,23 @@ display:flex;
 }
 
 /*
-.wx-icon-success:before{
+.tt-icon-success:before{
   color:#F85959;
   }
-  .wx-icon-success_no_circle:before{
+  .tt-icon-success_no_circle:before{
   color:#F85959;
   }
-  .wx-icon-info:before{
+  .tt-icon-info:before{
     color:#CACACA;
   }
- .wx-icon-warn:before{
+ .tt-icon-warn:before{
     color:#f5a623;
   }
-  .wx-icon-clear:before{
+  .tt-icon-clear:before{
     color:#f95959;
   }*/
   /**/
-wx-switch .wx-switch-input.wx-switch-input-checked {
+tt-switch .tt-switch-input.tt-switch-input-checked {
   border-color: #F85959;
   background-color: #F85959;
 }
@@ -210,7 +210,7 @@ button[size=mini] {
     padding: 0 1.34em;
 }
 
-wx-checkbox .wx-checkbox-input{
+tt-checkbox .tt-checkbox-input{
   margin-right:5px;
   -webkit-application:none;
   outline:0;
@@ -220,11 +220,11 @@ wx-checkbox .wx-checkbox-input{
   height:22px;
   position:relative;
 }
-wx-checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+tt-checkbox .tt-checkbox-input.tt-checkbox-input-checked{
 color:#FFFFFF;
 background-color:#f85959;
 }
-wx-radio .wx-radio-input.wx-radio-input-checked{
+tt-radio .tt-radio-input.tt-radio-input-checked{
   color:#FFFFFF;
 background-color:#f85959;
   border:1px solid #f85959;
