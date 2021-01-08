@@ -1,6 +1,6 @@
 const {resolve, getComponentEntries} = require('./utils')
 const pub = require('./config.pub')
-//const CopyWebpackPlugin = require("copy-webpack-plugin") //引入插件
+const CopyWebpackPlugin = require("copy-webpack-plugin") //引入插件
 
 module.exports = {
     outputDir: resolve('dist'),
