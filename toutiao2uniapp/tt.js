@@ -17,15 +17,15 @@
   //////// 生命周期 /////
 
 	static getLaunchOptionsSync() {
-		return console.error("getLaunchOptionsSync暂不支持")
+		return console.warn("getLaunchOptionsSync is not support")
 	}
 
 	static exitMiniProgram() {
-		return console.error("exitMiniProgram暂不支持")
+		return console.warn("exitMiniProgram is not support")
 	}
 
 	static canIPutStuffOverComponent() {
-		return console.error("canIPutStuffOverComponent暂不支持")
+		return console.warn("canIPutStuffOverComponent is not support")
 	}
 
 	//////// 更新 /////
@@ -62,7 +62,7 @@
 
 	/////// 环境变量 /////
 	static env() {
-		return console.error("env暂不支持")
+		return console.warn("env is not support")
 	}
 
 	//////////////////////  网络  /////////////////////
@@ -163,7 +163,7 @@
 	}
 
 	static saveFileToDisk(object) {
-		return console.error("saveFileToDisk暂不支持")
+		return console.warn("saveFileToDisk is not support")
 	}
 
 	static getSavedFileList(object) {
@@ -242,26 +242,26 @@
 	}
 
 	static showDouyinOpenAuth(object) {
-		return console.error("showDouyinOpenAuth暂不支持")
+		return console.warn("showDouyinOpenAuth is not support")
 	}
 
 	/////// 数据分析 /////
 	static reportAnalytics(string,object) {
-		return console.error("reportAnalytics暂不支持")
+		return console.warn("reportAnalytics is not support")
 	}
 
 	/////// 跳转视频播放页 /////
 	static navigateToVideoView(object) {
-		return console.error("navigateToVideoView暂不支持")
+		return console.warn("navigateToVideoView is not support")
 	}
 
 	/////// 引导关注 /////
 	static followOfficialAccount(object) {
-		return console.error("followOfficialAccount暂不支持")
+		return console.warn("followOfficialAccount is not support")
 	}
 
 	static checkFollowState(object) {
-		return console.error("checkFollowState暂不支持")
+		return console.warn("checkFollowState is not support")
 	}
 
 	/////// 订阅消息 /////
@@ -271,7 +271,7 @@
 
 	/////// 电商融合方案 /////
 	static openDouyinOrderList(object) {
-		return console.error("openDouyinOrderList暂不支持")
+		return console.warn("openDouyinOrderList is not support")
 	}
 
 	/////////////////// 数据缓存 //////////////////////////
@@ -342,15 +342,15 @@
 	}
 
 	static getWifiList(object) {
-		return console.error("getWifiList暂不支持")
+		return console.warn("getWifiList is not support")
 	}
 
 	static onGetWifiList(callback) {
-		return console.error("onGetWifiList暂不支持")
+		return console.warn("onGetWifiList is not support")
 	}
 
 	static offGetWifiList(callback) {
-		return console.error("offGetWifiList暂不支持")
+		return console.warn("offGetWifiList is not support")
 	}
 
 	//////// 系统信息 ///////
@@ -364,7 +364,7 @@
 
 	//////// Wi-Fi ///////
 	static getConnectedWifi(object) {
-		return console.error("getConnectedWifi暂不支持")
+		return console.warn("getConnectedWifi is not support")
 	}
 
 	//////// 加速度计 ///////
@@ -422,7 +422,7 @@
 	}
 
 	static offUserCaptureScreen(callback) {
-		return console.error("offUserCaptureScreen暂不支持")
+		return console.warn("offUserCaptureScreen is not support")
 	}
 
 	static getScreenBrightness(object) {
@@ -475,15 +475,15 @@
 	}
 
 	static showFavoriteGuide(object) {
-		return console.error("showFavoriteGuide暂不支持")
+		return console.warn("showFavoriteGuide is not support")
 	}
 
 	static showInteractionBar(object) {
-		return console.error("showInteractionBar暂不支持")
+		return console.warn("showInteractionBar is not support")
 	}
 
 	static hideInteractionBar(object) {
-		return console.error("hideInteractionBar暂不支持")
+		return console.warn("hideInteractionBar is not support")
 	}
 
 	/////// 导航栏 ///////
@@ -524,15 +524,15 @@
 
 	/////// Canvas绘图 ///////
 	static createCanvasContext(string,object) {
-		return console.error("createCanvasContext暂不支持")
+		return console.warn("createCanvasContext is not support")
 	}
 
 	static createOffscreenCanvas() {
-		return console.error("createOffscreenCanvas暂不支持")
+		return console.warn("createOffscreenCanvas is not support")
 	}
 
 	static canvasToTempFilePath(object1,object2) {
-		return console.error("canvasToTempFilePath暂不支持")
+		return console.warn("canvasToTempFilePath is not support")
 	}
 
 	/////// 下拉刷新 ///////
@@ -611,7 +611,7 @@
 	}
 
 	static navigateToVideoView(object) {
-		return console.error("navigateToVideoView暂不支持")
+		return console.warn("navigateToVideoView is not support")
 	}
 
 	///////////////// TTML ////////////////////
