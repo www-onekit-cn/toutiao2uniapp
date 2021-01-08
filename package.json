@@ -1,6 +1,6 @@
 {
   "name": "toutiao2uniapp",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "main": "dist/dev/h5/index/index.js",
   "files": [
     "dist"

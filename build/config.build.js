@@ -21,12 +21,12 @@ module.exports = {
         },
         resolve: pub.resolve,
         plugins: [
-        /*    new CopyWebpackPlugin({
+           new CopyWebpackPlugin({
              patterns:[{
               from: "./public",
               to: 'public'
              }]
-            })*/
+            })
         ]
     },
     css: {
