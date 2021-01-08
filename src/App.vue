@@ -16,5 +16,5 @@
 </script>
 
 <style>
-	@import '../toutiao2uniapp/onekit.css'
+	@import '../toutiao2uniapp/public/onekit.css'
 </style>
